@@ -7,8 +7,9 @@
     "node": "10.x"
   },
   "scripts": {
+    "build": "NODE_ENV=production webpack --progress --profile --mode production",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "webpack-dev-server --config ./webpack.config.js --mode development"
+    "dev": "NODE_ENV=development webpack-dev-server --hot --mode development"
   },
   "repository": {
     "type": "git",
@@ -21,6 +22,7 @@
   },
   "homepage": "https://github.com/jaygraygray/wordsmith-app#readme",
   "dependencies": {
+    "@babel/polyfill": "^7.0.0",
     "express": "^4.16.4",
     "grommet": "^2.2.1",
     "path": "^0.12.7",
