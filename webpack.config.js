@@ -1,7 +1,7 @@
 const { HotModuleReplacementPlugin } = require('webpack');
 const path = require('path');
 const HtmlPlugin = require('html-webpack-plugin');
-const HOST = process.env.host || 3000;
+// const HOST = process.env.host || 3000;
 
 module.exports = (
   {} = {},
@@ -9,7 +9,6 @@ module.exports = (
     mode = 'production',
     port = 3000,
     hot = true,
-    host = HOST,
   } = {},
 ) => ({
   entry: {
@@ -30,7 +29,6 @@ module.exports = (
   devServer: {
     contentBase: './dist',
     hot: mode === 'development',
-    host,
   },
   module: {
     rules: [
