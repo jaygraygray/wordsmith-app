@@ -1,11 +1,6 @@
 import * as React from 'react';
 import { render } from 'react-dom';
-
-const App = () => {
-  return (
-    <div>Oh hai</div>
-  )
-}
+import App from './App';
 
 const makeRoot = () => {
   const div = document.createElement('div');

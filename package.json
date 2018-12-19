@@ -22,11 +22,13 @@
   "homepage": "https://github.com/jaygraygray/wordsmith-app#readme",
   "dependencies": {
     "express": "^4.16.4",
+    "grommet": "^2.2.1",
     "path": "^0.12.7",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
     "react-hot-loader": "^4.6.2",
     "react-router": "^4.3.1",
+    "styled-components": "^4.1.3",
     "tslib": "^1.9.3"
   },
   "devDependencies": {
