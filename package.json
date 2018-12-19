@@ -1,0 +1,52 @@
+{
+  "name": "wordsmith-app",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "engines": {
+    "node": "10.x"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --config ./webpack.config.js --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaygraygray/wordsmith-app.git"
+  },
+  "author": "jaygraygray",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jaygraygray/wordsmith-app/issues"
+  },
+  "homepage": "https://github.com/jaygraygray/wordsmith-app#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "path": "^0.12.7",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "react-hot-loader": "^4.6.2",
+    "react-router": "^4.3.1"
+  },
+  "devDependencies": {
+    "@babel/core": "7.2.2",
+    "@babel/preset-env": "7.2.0",
+    "@babel/preset-react": "7.0.0",
+    "@types/react": "^16.7.17",
+    "@types/react-dom": "16.0.11",
+    "babel-eslint": "^10.0.1",
+    "babel-loader": "^8.0.4",
+    "eslint": "^5.10.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-loader": "^2.1.1",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "html-webpack-plugin": "^3.2.0",
+    "tslib": "^1.9.3",
+    "typescript": "^3.2.2",
+    "typescript-eslint-parser": "^21.0.2",
+    "webpack": "^4.27.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10"
+  }
+}
