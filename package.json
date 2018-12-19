@@ -9,7 +9,9 @@
   "scripts": {
     "build": "NODE_ENV=production webpack --progress --profile --mode production",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "NODE_ENV=development webpack-dev-server --hot --mode development"
+    "dev": "NODE_ENV=development webpack-dev-server --hot --mode development",
+    "start": "node server.js",
+    "heroku-postbuild": "webpack -p"
   },
   "repository": {
     "type": "git",
